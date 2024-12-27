@@ -1,6 +1,11 @@
 # MachineLearning
 Studies focused on machine learning
 
+# How to test?
+  At the root of the project, create a folder named images and copy the files from the link below into the folder.  
+
+  * https://drive.google.com/drive/folders/1YqTS99uH1nzzonVlksswzRwMP4e5mEQA?usp=drive_link
+
 
 # Dependencies
 
