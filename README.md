@@ -8,24 +8,29 @@ Studies focused on machine learning
         ```shell
         pip install sacremoses
         ```
+
         ```shell
         pip install tf-keras
         ```
+
         ```shell
         pip install tensorflow
         ```
+
         ```shell
         pip install SentencePiece
         ```
-        
+
     * Used for source code: caliberCam.py or colorTracking.py
 
         ```shell
         pip install Pillow
         ```
+
         ```shell
         pip install matplotlib 
         ```
+
         ```shell
         pip install opencv-python
         ```
