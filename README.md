@@ -3,38 +3,40 @@ Studies focused on machine learning
 
 
 # Dependencies
-    * Used for source code: translate.py
 
-        ```shell
-        pip install sacremoses
-        ```
+  * https://pypi.org/project/sacremoses/
+    ```shell
+    pip install sacremoses
+    ```
 
-        ```shell
-        pip install tf-keras
-        ```
+  * https://pypi.org/project/tf-keras/   
+    ```shell
+    pip install tf-keras
+    ```
 
-        ```shell
-        pip install tensorflow
-        ```
+  * https://www.tensorflow.org/learn/
+    ```shell
+    pip install tensorflow
+    ```
 
-        ```shell
-        pip install SentencePiece
-        ```
+  * https://pypi.org/project/sentencepiece/
+    ```shell
+    pip install SentencePiece
+    ```
 
-    * Used for source code: caliberCam.py or colorTracking.py
+  * https://pypi.org/project/pillow/
+    ```shell
+    pip install Pillow
+    ```
 
-        ```shell
-        pip install Pillow
-        ```
-
-        ```shell
-        pip install matplotlib 
-        ```
-
-        ```shell
-        pip install opencv-python
-        ```
-
+  * https://pypi.org/project/matplotlib/
+    ```shell
+    pip install matplotlib 
+    ```
+  * https://pypi.org/project/opencv-python/
+    ```shell
+    pip install opencv-python
+    ```
 
 # References
  - https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_calib3d/py_calibration/py_calibration.html
