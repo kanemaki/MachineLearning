@@ -1,5 +1,8 @@
 ### VS Code ###
 .vscode/
 
+### PYTHON PACKAGES ###
+.venv/
+
 ### FILES ###
 images/
