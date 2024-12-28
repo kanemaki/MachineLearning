@@ -3,8 +3,14 @@ import numpy as np
 import joblib
 from PIL import ImageFont, ImageDraw, Image
 import os
-
 import random
+import re
+
+def verificar_placa(placa):
+    # Regex para placas padrão antigo e Mercosul
+    regex = r"^[A-Z]{3}-\d{4}$|^[A-Z]{3}\d[A-Z]\d{2}$"
+    return re.fullmatch(regex, placa) is not None
+
 clf,pp = joblib.load('caracteres.pkl') 
 placa_cascade = cv2.CascadeClassifier('placa.xml')
 
@@ -180,8 +186,11 @@ while True:
                 if res[6] == "O": res[6] = "0"
 
                 res = str(res).replace("_","").replace("[","").replace("]","").replace("'","").replace(",","")
-
                 res = res.replace(" ","")
+
+                # verifico se placa e licenciamento de veículo
+                print(f"{res}: {'Placa Válida' if verificar_placa(res) else 'Placa Inválida'}")
+
                 mid =int( x+ ((x+w)/2))
                 mid2 =int( y+ ((y+h)/2))
 
