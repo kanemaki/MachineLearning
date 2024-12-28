@@ -43,6 +43,26 @@ Studies focused on machine learning
     pip install opencv-python
     ```
 
+  * https://pypi.org/project/scikit-learn/
+    ```shell
+    pip install scikit-learn 
+    ```
+
+  * https://pypi.org/project/sklearn/
+    ```shell
+    pip install sklearn
+    ```
+
+  * https://pypi.org/project/scikit-image/
+    ```shell
+    pip install scikit-image  
+    ```
+
+  * https://pypi.org/project/skimage/
+    ```shell
+    pip install skimage   
+    ```
+
 # References
  - https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_calib3d/py_calibration/py_calibration.html
  - https://docs.opencv.org/3.4/da/d97/tutorial_threshold_inRange.html
